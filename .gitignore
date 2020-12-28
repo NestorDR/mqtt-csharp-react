@@ -1,0 +1,37 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Visual Studio Build results
+/csharp-mqtt-publisher/[Bb]in/
+/csharp-mqtt-publisher/[Oo]bj/
+
+# Visual Studio 2019 cache/options directory
+/csharp-mqtt-publisher/.vs/
+
+# edition
+/.idea
+/react-mqtt-subscriber/.idea
+/react-mqtt-subscriber/.vscode
+/react-mqtt-subscriber/.eslintcache
+/snippets
+
+# dependencies
+/react-mqtt-subscriber/node_modules
+/react-mqtt-subscriber/.pnp
+/react-mqtt-subscriber/.pnp.js
+
+# testing
+/react-mqtt-subscriber/coverage
+
+# production
+/react-mqtt-subscriber/build
+
+# misc
+/react-mqtt-subscriber/.DS_Store
+/react-mqtt-subscriber/.env.local
+/react-mqtt-subscriber/.env.development.local
+/react-mqtt-subscriber/.env.test.local
+/react-mqtt-subscriber/.env.production.local
+
+/react-mqtt-subscriber/npm-debug.log*
+/react-mqtt-subscriber/yarn-debug.log*
+/react-mqtt-subscriber/yarn-error.log*

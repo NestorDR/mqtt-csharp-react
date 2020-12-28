@@ -1,0 +1,48 @@
+html {
+  /*font-family: 'Roboto Mono', monospace;*/
+  font-family: 'Montserrat', sans-serif;
+}
+.App {
+  text-align: center;
+}
+form,
+.message-list {
+  width: 50%;
+  margin: auto;
+}
+.message-list {
+  font-size: small;
+  padding-left: 80px;
+}
+form .status {
+  padding: 12px;
+  text-align: center;
+}
+.form-row,
+.form-actions {
+  padding: 8px;
+  display: flex;
+}
+.form-row {
+  justify-content: space-between;
+}
+.form-actions {
+  justify-content: flex-end;
+}
+.form-actions {
+  justify-content: flex-end;
+}
+.form-actions button {
+  margin-left: 12px;
+}
+.form-row .icon-label {
+  min-width: 48px;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  form,
+  .message-list {
+    width: 100%;
+  }
+}
